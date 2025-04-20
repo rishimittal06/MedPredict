@@ -33,14 +33,14 @@ if selected == 'About us':
         st.write("Our Pregnancy Risk Prediction feature utilizes advanced algorithms to analyze various parameters, including age, "
                  "body sugar levels, blood pressure, and more. By processing this information, we provide accurate predictions of "
                  "potential risks during pregnancy.")
-        st.image("graphics/pregnancy_risk_image.jpg", caption="Pregnancy Risk Prediction", use_column_width=True)
+        st.image("pregnancy_risk_image.jpg", caption="Pregnancy Risk Prediction", use_column_width=True)
     
     with col2:
         st.header("2. Fetal Health Prediction")
         st.write("Fetal Health Prediction is a crucial aspect of our system. We leverage cutting-edge technology to assess the "
                  "health status of the fetus. Through a comprehensive analysis of factors such as ultrasound data, maternal health, "
                  "and genetic factors, we deliver insights into the well-being of the unborn child.")
-        st.image("graphics/fetal_health_image.jpg", caption="Fetal Health Prediction", use_column_width=True)
+        st.image("fetal_health_image.jpg", caption="Fetal Health Prediction", use_column_width=True)
     
    
 
